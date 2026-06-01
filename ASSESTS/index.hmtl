@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodadala Pavani | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>A<span class="logo-bracket">/&gt;</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active"><i class="fa-solid fa-terminal"></i> root@home</a>
+                <a href="#about" class="nav-link"><i class="fa-solid fa-user-gear"></i> profile</a>
+                <a href="#skills" class="nav-link"><i class="fa-solid fa-database"></i> sys.env</a>
+                <a href="#projects" class="nav-link"><i class="fa-solid fa-code-branch"></i> repositories</a>
+                <a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> logs.edu</a>
+                <a href="#certifications" class="nav-link"><i class="fa-solid fa-certificate"></i> certs</a>
+                <a href="#testimonials" class="nav-link"><i class="fa-solid fa-comments"></i> reviews</a>
+            </nav>
+            <button class="hamburger-menu" id="hamburger" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <section id="home" class="section hero-section">
+            <div class="matrix-overlay"></div>
+            <div class="hero-container">
+                <div class="console-box">
+                    <div class="console-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="console-title">session_init.sh</span>
+                    </div>
+                    <div class="console-body">
+                        <p class="console-user">guest@pavani-portfolio:~$ run introduction.py</p>
+                        <h1 class="glitch-text" data-text="KODADALA PAVANI">KODADALA PAVANI</h1>
+                        <p class="console-subtitle"><i class="fa-solid fa-caret-right"></i> Computer Science Engineering Student &amp; DevOps Enthusiast</p>
+                        <div class="social-links-container">
+                            <a href="https://www.linkedin.com/in/kodadala-pavani" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                            <a href="https://github.com/KodadalaPavani" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="mailto:kodadalapavani@gmail.com" class="social-btn"><i class="fa-solid fa-envelope"></i> Email</a>
+                            <a href="tel:7993435344" class="social-btn"><i class="fa-solid fa-phone"></i> +91 7993435344</a>
+                        </div>
+                        <div class="resume-download-box">
+                            <a href="assets/resume.pdf" download="Kodadala_Pavani_Resume.pdf" class="download-action-btn">
+                                <i class="fa-solid fa-file-arrow-down"></i> DOWNLOAD RESUME (PDF)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section code-block-section">
+            <h2 class="section-heading"><span class="accent-color">01.</span> Career Objective</h2>
+            <div class="db-card">
+                <div class="db-card-header"><i class="fa-solid fa-user-tie"></i> core_objectives.db</div>
+                <div class="db-card-body">
+                    <p class="objective-text">
+                        Motivated Computer Science Engineering student with strong foundation in programming, web development, and database management and DevOps Enthusiast. Proficient in HTML, CSS, JavaScript, Java, SQL, AWS, Linux and Git, with hands-on experience building responsive web applications and machine learning projects. Quick learner with strong analytical and problem-solving skills, eager to contribute to innovative full stack development projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section code-block-section">
+            <h2 class="section-heading"><span class="accent-color">02.</span> System Environment &amp; Tech Stack</h2>
+            <div class="skills-grid">
+                
+                <div class="db-card feature-card">
+                    <div class="db-card-header"><i class="fa-solid fa-code"></i> Programming Languages</div>
+                    <div class="db-card-body">
+                        <ul class="skills-list">
+                            <li><i class="fa-solid fa-terminal text-accent"></i> C</li>
+                            <li><i class="fa-solid fa-terminal text-accent"></i> Core Java</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="db-card feature-card">
+                    <div class="db-card-header"><i class="fa-solid fa-globe"></i> Web Technologies</div>
+                    <div class="db-card-body">
+                        <ul class="skills-list">
+                            <li><i class="fa-brands fa-html5 text-accent"></i> HTML</li>
+                            <li><i class="fa-brands fa-css3-alt text-accent"></i> CSS</li>
+                            <li><i class="fa-brands fa-js text-accent"></i> JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="db-card feature-card">
+                    <div class="db-card-header"><i class="fa-solid fa-wrench"></i> Development Tools</div>
+                    <div class="db-card-body">
+                        <ul class="skills-list">
+                            <li><i class="fa-solid fa-square-code text-accent"></i> VS Code</li>
+                            <li><i class="fa-solid fa-file-powerpoint text-accent"></i> Powerpoint</li>
+                            <li><i class="fa-solid fa-file-word text-accent"></i> MS Word</li>
+                            <li><i class="fa-brands fa-git-alt text-accent"></i> Git</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="db-card feature-card">
+                    <div class="db-card-header"><i class="fa-solid fa-database"></i> Database Management</div>
+                    <div class="db-card-body">
+                        <ul class="skills-list">
+                            <li><i class="fa-solid fa-server text-accent"></i> Oracle Database</li>
+                            <li><i class="fa-solid fa-layer-group text-accent"></i> SQL Querying</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="section code-block-section">
+            <h2 class="section-heading"><span class="accent-color">03.</span> Compiled Academic Projects</h2>
+            <div class="projects-container">
+
+                <div class="db-card project-node">
+                    <div class="db-card-header project-node-header">
+                        <span><i class="fa-solid fa-brain"></i> Intelligent Legal Document Analysis and Contract Risk Engine</span>
+                        <span class="badge">2026</span>
+                    </div>
+                    <div class="db-card-body">
+                        <div class="tech-tags-container">
+                            <span class="tech-tag">AI System</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Risk Analysis</span>
+                        </div>
+                        <ul class="project-details-list">
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Developed an AI-based system to analyze legal documents and contracts automatically.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Implemented techniques to identify potential risks, missing clauses, and compliance issues.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Reduced manual effort and time required for contract review.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Improved accuracy and consistency in legal document analysis.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Designed the system to handle large volumes of legal data efficiently.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Enhanced decision-making by providing risk insights and summaries.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="db-card project-node">
+                    <div class="db-card-header project-node-header">
+                        <span><i class="fa-solid fa-shield-halved"></i> Cost Sensitive Fraud Detection</span>
+                        <span class="badge">2025</span>
+                    </div>
+                    <div class="db-card-body">
+                        <div class="tech-tags-container">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                        </div>
+                        <ul class="project-details-list">
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Developed a machine learning-based fraud detection system to identify suspicious transactions.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Applied cost-sensitive learning techniques to handle imbalanced datasets effectively.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Improved fraud detection accuracy while minimizing false positives.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Performed data preprocessing and analysis using Pandas.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Built and deployed the model using Scikit-learn and Flask.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="db-card project-node">
+                    <div class="db-card-header project-node-header">
+                        <span><i class="fa-solid fa-route"></i> Roam Riders Website</span>
+                        <span class="badge">2025</span>
+                    </div>
+                    <div class="db-card-body">
+                        <div class="tech-tags-container">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <ul class="project-details-list">
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Designed and developed a responsive travel website for exploring destinations and trip planning.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Implemented user-friendly UI for seamless navigation and booking experience.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Built dynamic and interactive features using JavaScript.</li>
+                            <li><i class="fa-solid fa-chevron-right text-accent"></i> Ensured mobile responsiveness using modern CSS techniques.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="education" class="section code-block-section">
+            <h2 class="section-heading"><span class="accent-color">04.</span> Academic Schema Logs</h2>
+            <div class="timeline-container">
+
+                <div class="db-card timeline-card">
+                    <div class="db-card-header timeline-header">
+                        <span class="timeline-title"><i class="fa-solid fa-graduation-cap"></i> B. Tech in Computer Science and Engineering</span>
+                        <span class="timeline-date">2022 - 2026</span>
+                    </div>
+                    <div class="db-card-body">
+                        <h4 class="institution-name">Mina Institute of Engineering and Technology for Women, JNTUH</h4>
+                        <div class="metric-box">
+                            <span class="metric-label">CUMULATIVE SCORE:</span>
+                            <span class="metric-value">83%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="db-card timeline-card">
+                    <div class="db-card-header timeline-header">
+                        <span class="timeline-title"><i class="fa-solid fa-building-columns"></i> State Board of Intermediate</span>
+                        <span class="timeline-date">2020 - 2022</span>
+                    </div>
+                    <div class="db-card-body">
+                        <h4 class="institution-name">Pragathi Junior College</h4>
+                        <div class="metric-box">
+                            <span class="metric-label">EXAM SCORE:</span>
+                            <span class="metric-value">98%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="db-card timeline-card">
+                    <div class="db-card-header timeline-header">
+                        <span class="timeline-title"><i class="fa-solid fa-school"></i> Secondary School Certificate</span>
+                        <span class="timeline-date">2019 - 2020</span>
+                    </div>
+                    <div class="db-card-body">
+                        <h4 class="institution-name">Kakatiya High School</h4>
+                        <div class="metric-box">
+                            <span class="metric-label">FINAL SCORE:</span>
+                            <span class="metric-value">100%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="certifications" class="section code-block-section">
+            <h2 class="section-heading"><span class="accent-color">05.</span> Verified System Certifications</h2>
+            <div class="certs-grid">
+
+                <div class="cert-item-card">
+                    <div class="cert-icon-box"><i class="fa-solid fa-cube"></i></div>
+                    <div class="cert-meta">
+                        <h3>Introduction to Retrieval Augmented Generation</h3>
+                        <p class="cert-vendor">IBM SkillsBuild</p>
+                    </div>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-icon-box"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <div class="cert-meta">
+                        <h3>Ethical Considerations for Generative AI</h3>
+                        <p class="cert-vendor">IBM SkillsBuild</p>
+                    </div>
+                </div>
+
+                <div class="cert-item-card">
+                    <div class="cert-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+                    <div class="cert-meta">
+                        <h3>Introduction to Cyber Security</h3>
+                        <p class="cert-vendor">IBM SkillsBuild</p>
+                    </div>
+                </div>
+
+                <div class="cert-item-card oracle-cert">
+                    <div class="cert-icon-box"><i class="fa-solid fa-cloud"></i></div>
+                    <div class="cert-meta">
+                        <h3>Oracle Certified: AI Foundations Associate</h3>
+                        <p class="cert-vendor">Oracle University</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="testimonials" class="section code-block-section">
+            <h2 class="section-heading"><span class="accent-color">06.</span> Peer Reviews &amp; Validations</h2>
+            <div class="carousel-viewport">
+                <div class="carousel-track" id="carouselTrack">
+                    
+                    <div class="carousel-slide">
+                        <div class="testimonial-bubble">
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">
+                                Pavani demonstrates exceptionally strong analytical abilities when processing complex application rules. Her logic structure on deep data handling tools points to a reliable and scalable design methodology.
+                            </p>
+                            <div class="testimonial-user-meta">
+                                <div class="user-avatar-placeholder"><i class="fa-solid fa-user-code"></i></div>
+                                <div>
+                                    <h4 class="user-name">Project Reviewer Team</h4>
+                                    <p class="user-desc">Technical Evaluation Board</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="testimonial-bubble">
+                            <i class="fa-solid fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">
+                                Excellent command over interface integrity and responsive layout schemas. Her system designs remain perfectly aligned whether processing responsive frontend payloads or querying complex backends.
+                            </p>
+                            <div class="testimonial-user-meta">
+                                <div class="user-avatar-placeholder"><i class="fa-solid fa-network-wired"></i></div>
+                                <div>
+                                    <h4 class="user-name">Senior Evaluation Mentor</h4>
+                                    <p class="user-desc">Academic Systems Board</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-arrow-btn" id="prevBtn" aria-label="Previous Slide"><i class="fa-solid fa-angle-left"></i></button>
+                    <div class="carousel-dots-indicator" id="dotsContainer"></div>
+                    <button class="carousel-arrow-btn" id="nextBtn" aria-label="Next Slide"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="system-footer">
+        <div class="footer-container">
+            <p class="footer-log"><i class="fa-solid fa-circle-check text-accent"></i> status: deployed_successfully</p>
+            <p class="copyright-notice">&copy; 2026 Kodadala Pavani. All rights reserved. | Console Portfolio Build v2.4.0</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
